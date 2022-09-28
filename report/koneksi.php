@@ -2,6 +2,6 @@
 $host       = "localhost";
 $user       = "root";
 $password   = "";
-$database   = "netmonitor";
+$database   = "net-monitoring";
 $connect    = mysqli_connect($host, $user, $password, $database);
 ?>

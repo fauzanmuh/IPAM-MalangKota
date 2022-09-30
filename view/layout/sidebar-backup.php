@@ -1,6 +1,6 @@
 <?php 
 $d_blokx=$conn->query("SELECT (name_blok) FROM blok WHERE pusat_client='1'")->fetch_assoc();
-$nama_blok = $d_blokx['name_blok']; // Id Kantor Daop 3
+$nama_blok = $d_blokx['name_blok']; // Id Server 3
  ?>
 <ul class="sidebar-menu">
    <li>
@@ -30,7 +30,7 @@ $nama_blok = $d_blokx['name_blok']; // Id Kantor Daop 3
                     echo "<li>
                             <a href='./stasiun&id=$id_blok'><span class='fa fa-rss'></span> $name_blok</a>
                             </li>";
-                            //tidak terpakais
+                            //tidak terpakai
                   }
                 }
             } else {
@@ -47,17 +47,17 @@ $nama_blok = $d_blokx['name_blok']; // Id Kantor Daop 3
     </a>
     <ul class="treeview-menu">
     <li>
-        <a class="active" href="./log">Log Laporan</a>
+        <a class="active" href="./add_stasiun">Add Server</a>
     </li>
     <li>
         <a class="active" href="./add_client">Add Client</a>
     </li>
     <li>
-        <a class="active" href="./add_stasiun">Add Server</a>
+        <a class="active" href="./log">Log Laporan</a>
     </li>
-    <li>
+    <!-- <li>
         <a href="./asset/proses.php?logout">Logout</a>
-    </li>
+    </li> -->
     
     </ul>
   </li>

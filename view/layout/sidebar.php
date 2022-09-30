@@ -21,17 +21,17 @@
         $right_icon = "<i class='fa fa-angle-left pull-right'></i>";
         $menu_d = "<ul class='treeview-menu'>
         <li>
-            <a class='active' href='./log'>Log Laporan </a>
+            <a class='active' href='./add_stasiun'>Add Server</a>
         </li>
         <li>
             <a class='active' href='./add_client'>Add Client</a>
         </li>
         <li>
-            <a class='active' href='./add_stasiun'>Add Server</a>
+            <a class='active' href='./log'>Log Laporan </a>
         </li>
-        <li>
+        <!-- <li>
             <a href='./asset/proses.php?logout'>Logout</a>
-        </li>
+        </li> -->
         
         </ul>";
       } else {
@@ -44,7 +44,7 @@
               <i class='$icon[$i]'></i> <span>$nama[$i]</span> $right_icon
               </a> $menu_d";
 
-              if ($nama[$i]==="Monitoring") { // Khusus untuk monitoring karena terdapad looping While jadi tidak bisa dimasuan kevariable = kita bikin manual.
+              if ($nama[$i]==="Monitoring") { // Khusus untuk monitoring karena terdapat looping While jadi tidak bisa dimasukkan ke variable = kita bikin manual.
                 if ($conn->query("SELECT*FROM client")->num_rows!==0) {
                   $query_blok=$conn->query("SELECT*FROM blok ORDER BY id_blok ASC");
                   while ($blok=$query_blok->fetch_assoc()) {
@@ -56,7 +56,7 @@
                       echo "<li>
                               <a class='active' href='./stasiun&id=$id_blok'><span class='fa fa-rss'></span> $name_blok</a>
                               </li>";
-                              //tidak terpakais
+                              //tidak terpakai
                         }
                       }
                   } else {

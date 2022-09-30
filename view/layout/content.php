@@ -9,12 +9,12 @@ date_default_timezone_set("Asia/Jakarta");
                     if ($_GET['st'] == 1) {
                           echo '<div class="callout callout-warning" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Berhasil disimpan.
+                              Berhasil Disimpan.
                             </div><br />';
                     } elseif ($_GET['st'] == 2) {
                           echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Gagal menyimpan.
+                              Gagal Menyimpan.
                             </div><br />';
                     }
                   }
@@ -33,12 +33,12 @@ date_default_timezone_set("Asia/Jakarta");
             if ($_GET['st']==1) {
             echo '<div class="callout callout-warning" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Berhasil ditambahkan.
+                              Berhasil Ditambahkan.
                             </div><br />';
           } elseif ($_GET['st']==2) {
             echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Gagal menyimpan.
+                              Gagal Menyimpan.
                             </div><br />';
           } elseif ($_GET['st']==3) {
             echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
@@ -54,19 +54,19 @@ date_default_timezone_set("Asia/Jakarta");
         $halaman = "./view/add_client.php";
       } elseif (strcmp($page, "add_stasiun")==0) {
         ########################
-        # SETTING TAMBAH STASIUN
+        # SETTING TAMBAH SERVER
         ########################
         function showNotif() {
           if (isset($_GET['st'])) {
             if ($_GET['st']==1) {
             echo '<div class="callout callout-warning" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Berhasil ditambahkan.
+                              Berhasil Ditambahkan.
                             </div><br />';
           } elseif ($_GET['st']==2) {
             echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Gagal menyimpan.
+                              Gagal Menyimpan.
                             </div><br />';
           } elseif ($_GET['st']==3) {
             echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
@@ -90,12 +90,12 @@ date_default_timezone_set("Asia/Jakarta");
             if ($_GET['st']==1) {
                 echo '<div class="callout callout-warning" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Berhasil disimpan.
+                              Berhasil Disimpan.
                             </div><br />';
             } elseif ($_GET['st']==2) {
                 echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Gagal menyimpan.
+                              Gagal Menyimpan.
                             </div><br />';
             } elseif ($_GET['st']==3) {
                 echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
@@ -105,12 +105,12 @@ date_default_timezone_set("Asia/Jakarta");
             } elseif ($_GET['st']==4) {
                 echo '<div class="callout callout-success" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Berhasil dihapus.
+                              Berhasil Dihapus.
                             </div><br />';
             } elseif ($_GET['st']==5) {
                 echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Gagal dihapus.
+                              Gagal Dihapus.
                             </div><br />';
             }
         }
@@ -135,22 +135,22 @@ date_default_timezone_set("Asia/Jakarta");
             if ($_GET['st']==1) {
             echo '<div class="callout callout-warning" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Berhasil dirubah.
+                              Berhasil Dirubah.
                             </div><br />';
           } elseif ($_GET['st']==2) {
             echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Gagal dirubah.
+                              Gagal Dirubah.
                             </div><br />';
           } elseif ($_GET['st']==3) {
             echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Katasandi lama tidak cocok.
+                              Password lama tidak cocok.
                             </div><br />';
           } elseif ($_GET['st']==4) {
             echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Konfirmasi katasandi tidak sama.
+                              Konfirmasi Password tidak sama.
                             </div><br />';
           }  elseif ($_GET['st']==5) {
             echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
@@ -173,12 +173,12 @@ date_default_timezone_set("Asia/Jakarta");
             if ($_GET['st']==1) {
                 echo '<div class="callout callout-warning" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Berhasil disimpan.
+                              Berhasil Disimpan.
                             </div><br />';
             } elseif ($_GET['st']==2) {
                 echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Gagal menyimpan.
+                              Gagal Menyimpan.
                             </div><br />';
             } elseif ($_GET['st']==3) {
                 echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
@@ -188,12 +188,12 @@ date_default_timezone_set("Asia/Jakarta");
             } elseif ($_GET['st']==4) {
                 echo '<div class="callout callout-success" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Berhasil dihapus.
+                              Berhasil Dihapus.
                             </div><br />';
             } elseif ($_GET['st']==5) {
                 echo '<div class="callout callout-danger" style="margin-bottom: 0!important;">
                               <h4><i class="fa fa-info"></i> Note:</h4>
-                              Gagal dihapus.
+                              Gagal Dihapus.
                               </div><br />';
               }
           }
@@ -250,7 +250,6 @@ date_default_timezone_set("Asia/Jakarta");
 
               <!-- About Me Box -->
               
-                  
                   <?php 
                       if ($pantau!=0) {
                         echo '<div class="box box-primary">
@@ -258,7 +257,7 @@ date_default_timezone_set("Asia/Jakarta");
                                 <h3 class="box-title">Status Jaringan</h3>
                               </div><!-- /.box-header -->
                               <div class="box-body"> <ul>';
-                        $ar_status = array("Terhubung", "Terputus", "Jaringan tidak terjangkau", "Host tidak terjangkau", "Permintaan habis");
+                        $ar_status = array("Terhubung", "Terputus", "Jaringan Tidak Terjangkau", "Host Tidak Terjangkau", "Permintaan Habis");
                         $count_ar = count($ar_status) - 1; // array di mulai dari nol jadi hasil count di kurangi 1
                         for ($i=0; $i <= $count_ar ; $i++) { 
                             $status_cl = $ar_status[$i];

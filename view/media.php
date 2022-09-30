@@ -49,9 +49,9 @@
         <!-- /#page-wrapper -->
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-          <b>Diskominfo</b> Cirebon
+          <b>Diskominfo</b> Malang
         </div>
-        <strong>Copyright © <?php echo date("Y"); ?> <a href="#"></a>.</strong> STMIK IKMI Cirebon.
+        <strong>Copyright © <?php echo date("Y"); ?> <a href="#"></a>.</strong> POLINEMA.
       </footer>
     </div>
     <!-- /#wrapper -->

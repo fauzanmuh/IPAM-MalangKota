@@ -35,15 +35,15 @@ function sendMail($x) {
     $mail->isSMTP();
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
-    $mail->Username = 'mng.ndo97@gmail.com'; // Email anda disini
-    $mail->Password = 'Root123###'; // Katasandi email anda
+    $mail->Username = 'ahmadsivan23@gmail.com'; // Email anda disini
+    $mail->Password = 'malangan12'; // Katasandi email anda
     $mail->SMTPSecure = 'tls';
      
-    $mail->From = 'mng.ndo97@gmail.com'; // Email disamakan saja
-    $mail->FromName = 'Monitoring ITCN3';
-    $mail->addAddress('mng.ndo97@gmail.com', 'master'); // Target email
+    $mail->From = 'ahmadsivan23@gmail.com'; // Email disamakan saja
+    $mail->FromName = 'Monitoring IP Kota Malang';
+    $mail->addAddress('ahmadsivan23@gmail.com', 'Ghost'); // Target email
      
-    $mail->addReplyTo('mng.ndo97@gmail.com', 'Monitoring ITCN3'); // isi saja sama seperti email yg anda gunakan untuk mengirim
+    $mail->addReplyTo('ahmadsivan23@gmail.com', 'Monitoring IP Kota Malang'); // isi saja sama seperti email yg anda gunakan untuk mengirim
      
     $mail->WordWrap = 50;
     $mail->isHTML(true);

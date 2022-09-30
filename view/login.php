@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Network Monitoring | Log in</title>
+    <title>Network Monitoring Kota Malang </title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -27,7 +27,7 @@
   <body class="hold-transition login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="asset/index2.html"><b>Admin</b>Login</a>
+        <a href="asset/index2.html"><b>Login</b></a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
       <?php 
@@ -35,7 +35,7 @@
                             echo "<div class='alert alert-danger'><strong>Login gagal, Silahkan coba kembali.</strong></div>";
                         }
                          ?>
-        <p class="login-box-msg">Sign in to start your session</p>
+        <p class="login-box-msg">Login to start your session</p>
         <form action="./asset/proses.php" method="post">
           <div class="form-group has-feedback">
             <input type="email" class="form-control" name="email" placeholder="Email">
@@ -47,7 +47,7 @@
           </div>
           <div class="row">
             <div class="col-xs-12">
-              <button type="submit" name="login" class="btn btn-primary btn-block btn-flat">Sign In</button>
+              <button type="submit" name="login" class="btn btn-primary btn-block btn-flat"><i class="fa fa-sign-in"> Login</i></button>
             </div><!-- /.col -->
           </div>
         </form>

@@ -162,7 +162,7 @@ date_default_timezone_set("Asia/Jakarta");
         }
         $notif = 'true';
         $pantau = 0;
-        $judul = "Rubah katasandi";
+        $judul = "Ganti Password";
         $halaman = "./view/ubah-katasandi.php";
       } elseif (strcmp($page, "log")==0) {
         ##########################
@@ -199,7 +199,7 @@ date_default_timezone_set("Asia/Jakarta");
           }
           echo '<div class="callout callout-info" style="margin-bottom: 0!important;">
           <h4><i class="fa fa-info"></i> Note:</h4>
-          Agar menghemat penyimpanan Database sangat disarankan untuk menghapus log laporan email ini.
+          Agar menghemat penyimpanan Database sangat disarankan untuk menghapus log Laporan ini.
           </div> <br />';
         }
         $notif = 'true';

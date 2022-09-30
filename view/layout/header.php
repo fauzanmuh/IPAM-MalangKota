@@ -34,7 +34,7 @@ $admin_name = $admin['name_user'];
                     <img src="asset/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                     <p>
                       <?php echo $admin_name; ?> - Web Developer
-                      <small>STMIK IKMI CIREBON</small>
+                      <small>Diskominfo Kota Malang</small>
                     </p>
                   </li>
                   <!-- Menu Body -->
@@ -42,10 +42,10 @@ $admin_name = $admin['name_user'];
                   <!-- Menu Footer-->
                   <li class="user-footer">
                     <div class="pull-left">
-                      <a href="katasandi" class="btn btn-default btn-flat">Ubah Katasandi</a>
+                      <a href="katasandi" class="btn btn-default btn-flat">Ganti Password <i class="fa fa-key"></i></a>
                     </div>
                     <div class="pull-right">
-                      <a href="asset/proses.php?logout" class="btn btn-default btn-flat">Keluar</a>
+                      <a href="asset/proses.php?logout" class="btn btn-default btn-flat">Keluar <i class="fa fa-sign-out"></i></a>
                     </div>
                   </li>
                 </ul>

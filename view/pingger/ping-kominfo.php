@@ -144,8 +144,8 @@ if ($cek_page->num_rows != 0) {
                     <button class='btn btn-primary btn-sm' data-toggle='modal' data-target='#modalEdit$id_client'>
                         <i class='glyphicon glyphicon-pencil'></i> Edit
                     </button>
-                    <button class='btn btn-danger btn-sm' data-toggle='modal' data-target='#modalDel$id_client'> Hapus
-                        <i class='glyphicon glyphicon-trash'></i>
+                    <button class='btn btn-danger btn-sm' data-toggle='modal' data-target='#modalDel$id_client'> 
+                    <i class='glyphicon glyphicon-trash'></i> Hapus
                     </button>
                 </td>
                 </tr>";

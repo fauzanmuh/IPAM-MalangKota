@@ -1,14 +1,14 @@
 <?php 
     $d_blok=$conn->query("SELECT*FROM blok WHERE pusat_client='1'")->fetch_assoc();
-    $id_st = $d_blok['id_blok']; // Id Kantor Daop 3
-    //$id_blok = $d_blok['id_blok']; // Id Kantor Daop 3
+    $id_st = $d_blok['id_blok']; // Id Kantor 3
+    //$id_blok = $d_blok['id_blok']; // Id Kantor 3
     $name_st = $d_blok['name_blok']; // Nama 
-    extract($d_blok); // khusus kantor daop
+    extract($d_blok); // khusus kantor
 ?>
 <ul class="nav nav-tabs">
   <li class="active"><a href="#tab-monitoring" data-toggle="tab" aria-expanded="false">Monitoring</a></li>
   <li class=""><a href="#stasiun-info" data-toggle="tab" aria-expanded="true">Info Server</a></li>
-  <li class=""><a href="#stasiun-sett" data-toggle="tab" aria-expanded="false">Edit Info</a></li>
+  <li class=""><a href="#stasiun-sett" data-toggle="tab" aria-expanded="false">Edit Info Server</a></li>
 </ul>
 <div class="tab-content">
   <div class="tab-pane active" id="tab-monitoring">
@@ -37,8 +37,8 @@
        <button class='btn btn-primary btn-sm' data-toggle='modal' data-target='#editSt'>
           <i class='glyphicon glyphicon-pencil'></i> Edit
       </button>
-      <button class='btn btn-danger btn-sm' data-toggle='modal' data-target='#delSt'> Hapus
-          <i class='glyphicon glyphicon-trash'></i>
+      <button class='btn btn-danger btn-sm' data-toggle='modal' data-target='#delSt'> 
+      <i class='glyphicon glyphicon-trash'></i> Hapus
       </button>
     </div><!-- /.tab-pane -->
   </div><!-- /.tab-pane -->
@@ -56,7 +56,7 @@ $(document).ready(function() {
     $("#loaderIcon").show();
     var interval = setInterval(function() {
         $.ajax({
-             url: 'view/pingger/ping-daop3.php?id=<?php echo $id_blok; if (isset($pn)) { echo $pn_link;}; ?>',
+             url: 'view/pingger/ping-kominfo.php?id=<?php echo $id_blok; if (isset($pn)) { echo $pn_link;}; ?>',
              success: function(data) {
                 $("#loaderIcon").hide();
                 $('#monitoring').html(data);

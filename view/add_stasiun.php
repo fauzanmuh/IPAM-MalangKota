@@ -35,8 +35,8 @@
                       
                       <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-10">
-                          <button type="submit" class="btn btn-warning" name="add_stasiun">Simpan</button>
-                          <button type="reset" class="btn btn-danger" name="">Reset</button>
+                        <button type="submit" class="btn btn-warning" name="add_stasiun"><i class="fa fa-save"></i> Simpan</button>
+                  <button type="reset" class="btn btn-danger" name="add_stasiun"><i class="fa fa-times-circle"></i> Reset</button>
                         </div>
                       </div>
                     </form>

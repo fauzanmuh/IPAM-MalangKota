@@ -11,7 +11,7 @@
                       <div class="input-group-addon">
                         <i class="fa  fa-sort-alpha-asc"></i>
                       </div>
-                      <input type="text" name="client" class="form-control" placeholder="Masukan Nama Host" required>
+                      <input type="text" name="client" class="form-control" placeholder="Masukkan Nama Host" required>
                     </div><!-- /.input group -->
                 </div>
               </div>
@@ -22,7 +22,7 @@
                       <div class="input-group-addon">
                         <i class="fa fa-laptop"></i>
                       </div>
-                      <input type="text" placeholder="Masukan IP" name="ip" class="form-control" data-inputmask="'alias': 'ip'" data-mask="" required>
+                      <input type="text" placeholder="Masukkan IP" name="ip" class="form-control" data-inputmask="'alias': 'ip'" data-mask="" required>
                     </div><!-- /.input group -->
                 </div>
               </div>
@@ -48,8 +48,8 @@
               </div>
               <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                  <button type="submit" class="btn btn-warning" name="add_client">Simpan</button>
-                  <button type="reset" class="btn btn-danger" name="add_client">Reset</button>
+                  <button type="submit" class="btn btn-warning" name="add_client"><i class="fa fa-save"></i> Simpan</button>
+                  <button type="reset" class="btn btn-danger" name="add_client"><i class="fa fa-times-circle"></i> Reset</button>
                 </div>
               </div>
             </form>
